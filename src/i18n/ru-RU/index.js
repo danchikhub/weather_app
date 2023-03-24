@@ -1,0 +1,18 @@
+export default {
+  failed: "Действие провалено",
+  success: "Действие успешно",
+  now: "Сейчас",
+  feelslike: "По ощущениям",
+  high: "Макс",
+  low: "Мин",
+  wind_direction: "Направление ветра",
+  wind_speed: "Скорость ветра",
+  humidity: "Влажность",
+  pressure: "Давление",
+  kph: "км/ч",
+  gpa: "Гпа",
+  select_city: "Выберите город",
+  select_lang: "Язык",
+  farin: "по Фаренгейту",
+  dark_theme: "Тёмная тема",
+};
