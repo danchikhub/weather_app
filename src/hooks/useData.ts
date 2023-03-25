@@ -21,7 +21,7 @@ export function useData() {
       Promise.all([
         await axios
           .get(
-            "http://api.weatherapi.com/v1/forecast.json?key=28f041fa6062436682b85812231703&q=Bishkek&days=1&aqi=no&alerts=no&lang=en"
+            "https://api.weatherapi.com/v1/forecast.json?key=28f041fa6062436682b85812231703&q=Bishkek&days=1&aqi=no&alerts=no&lang=en"
           )
           .then((response) => {
             const { location, current, forecast } = response.data;
