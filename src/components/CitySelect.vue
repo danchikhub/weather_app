@@ -6,6 +6,7 @@
       :label="$t('select_city')"
       label-color="white"
       popup-content-class="test"
+      popup-content-style="background-color:#1a74c6"
       input-class="input-class"
       color="white"
       filled

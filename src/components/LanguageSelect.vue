@@ -7,6 +7,7 @@
       label-color="white"
       popup-content-class="test"
       input-class="input-class"
+      popup-content-style="background-color:#1a74c6"
       filled
       borderless
       emit-value
