@@ -106,6 +106,10 @@ export default defineComponent({
   height: 80vh;
 }
 @media screen and (min-width: 920px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .main-container {
     padding: 10px 0;
     width: 880px;
@@ -115,6 +119,10 @@ export default defineComponent({
 }
 
 @media screen and (max-width: 800px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .header {
     flex-direction: column;
     justify-content: space-around;
@@ -125,6 +133,10 @@ export default defineComponent({
   }
 }
 @media screen and (min-width: 700px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .current-stats {
     margin-bottom: 1em;
     padding-bottom: 0;
@@ -135,6 +147,10 @@ export default defineComponent({
 }
 
 @media screen and (max-width: 730px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .current-temperature__summary {
     margin-top: -0.1em;
   }
@@ -150,12 +166,20 @@ export default defineComponent({
   font-size: 1.125em;
 }
 @media screen and (min-width: 700px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .current-temperature,
   .current-stats {
     width: 50%;
   }
 }
 @media screen and (max-width: 400px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .current-temperature__icon {
     width: 7em;
     height: 7em;
@@ -169,6 +193,10 @@ export default defineComponent({
   }
 }
 @media screen and (max-width: 340px) {
+  .test {
+    color: #fff;
+    background-color: #1a74c6;
+  }
   .current-temperature__value {
     font-size: 3.5em;
     font-weight: 300;
