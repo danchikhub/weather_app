@@ -2,7 +2,7 @@ export default {
   failed: "Action failed",
   success: "Action was successful",
   now: "Now",
-  feelslike: "Feelslike",
+  feelslike: "Feels like",
   high: "High",
   low: "Low",
   wind_direction: "Wind direction",
@@ -15,4 +15,5 @@ export default {
   select_lang: "Language",
   farin: "Fahrenheit",
   dark_theme: "Dark Theme",
+  no_result: "No result",
 };

@@ -15,4 +15,5 @@ export default {
   select_lang: "Язык",
   farin: "по Фаренгейту",
   dark_theme: "Тёмная тема",
+  no_result: "Нет данных",
 };
