@@ -1,11 +1,6 @@
 import axios from "axios";
 import { ref, reactive, onMounted } from "vue";
 import { ICurrent, IForecast, ILocation } from "src/types";
-interface IWeather {
-  location: {};
-  current: {};
-  forecast: {};
-}
 
 export function useData() {
   const weather = reactive({
@@ -43,7 +38,6 @@ export function useData() {
     }
   };
   onMounted(fetching);
-  // fetching();
   return {
     weather,
     cities,

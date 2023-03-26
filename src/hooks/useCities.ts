@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ref, reactive } from "vue";
+import { ref } from "vue";
 
 export default function () {
   const cities = ref([]);

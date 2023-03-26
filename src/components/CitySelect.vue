@@ -5,7 +5,7 @@
       use-input
       :label="$t('select_city')"
       label-color="white"
-      popup-content-class="test"
+      popup-content-class="select_class"
       popup-content-style="background-color:#1a74c6"
       input-class="input-class"
       color="white"
@@ -71,7 +71,7 @@ export default defineComponent({
 .input-class {
   color: #fff;
 }
-.test {
+.select_class {
   color: #fff;
   background-color: #1a74c6;
 }

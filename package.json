@@ -8,9 +8,14 @@
   "scripts": {
     "lint": "eslint --ext .js,.ts,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
-    "build": "quasar build"
+    "build": "quasar build",
+    "ionic:build": "npm run build"
   },
   "dependencies": {
+    "@capacitor/android": "^4.7.1",
+    "@capacitor/cli": "^4.7.1",
+    "@capacitor/core": "^4.7.1",
+    "@capacitor/ios": "^4.7.1",
     "@quasar/extras": "^1.0.0",
     "axios": "^1.3.4",
     "quasar": "^2.6.0",

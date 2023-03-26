@@ -5,7 +5,7 @@
       :options="localeOptions"
       :label="$t('select_lang')"
       label-color="white"
-      popup-content-class="test"
+      popup-content-class="select_class"
       input-class="input-class"
       popup-content-style="background-color:#1a74c6"
       filled
@@ -47,7 +47,7 @@ export default defineComponent({
 .input-class {
   color: #fff;
 }
-.test {
+.select_class {
   color: #fff;
   background-color: #1a74c6;
 }
